@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import {
-  Box, Tabs, Tab, Typography, Paper
-} from '@mui/material';
+import { Box, Tabs, Tab, Typography, Paper } from '@mui/material';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import ChecklistIcon from '@mui/icons-material/Checklist';

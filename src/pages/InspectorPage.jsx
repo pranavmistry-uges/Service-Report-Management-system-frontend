@@ -107,31 +107,3 @@ export default function InspectorPage() {
     </Box>
   );
 }
-
-
-
-// import React, { useState } from "react";
-// import { Tabs, Tab, Box, Typography } from "@mui/material";
-// import TableComponent from "../components/TableComponent";
-
-// export default function InspectorPage() {
-//     const [tab, setTab] = useState(0);
-
-//     return (
-//         <Box sx={{ p: 3, backgroundColor: "#f5f5f5", minHeight: "100vh" }}>
-//             <Typography variant="h5" mb={2}>
-//                 Inspector Panel
-//             </Typography>
-
-//             <Tabs value={tab} onChange={(e, v) => setTab(v)} textColor="primary" indicatorColor="primary">
-//                 <Tab label="Assigned Service Report" />
-//                 <Tab label="Service Report Draft" />
-//                 <Tab label="Submitted Service Report List" />
-//             </Tabs>
-
-//             {tab === 0 && <TableComponent type="assigned" />}
-//             {tab === 1 && <TableComponent type="draft" />}
-//             {tab === 2 && <TableComponent type="submitted" />}
-//         </Box>
-//     );
-// }
