@@ -109,7 +109,7 @@ export default function ServiceTable({ data = [], theme = 'blue', actionType = '
           />
         </Box>
       )}
-      <Paper elevation={0} sx={{borderRadius: 3, overflow: 'hidden', border: '1px solid', borderColor: 'divider', boxShadow: '0 2px 12px rgba(0,0,0,0.06)'}}>
+      <Paper elevation={0} sx={{borderRadius: 0, overflow: 'hidden', border: '1px solid', borderColor: 'divider', boxShadow: '0 2px 12px rgba(0,0,0,0.06)'}}>
         <TableContainer sx={{ maxHeight: 520, overflowX: 'auto' }}>
           <Table stickyHeader size="small">
             <TableHead>
