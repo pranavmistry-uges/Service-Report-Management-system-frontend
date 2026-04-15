@@ -130,31 +130,3 @@ export default function App() {
     </ThemeProvider>
   );
 }
-
-
-// import React, { useState } from "react";
-// import AdminPage from "./pages/AdminPage";
-// import InspectorPage from "./pages/InspectorPage";
-// import { Button, Box } from "@mui/material";
-
-// function App() {
-//   const [role, setRole] = useState("admin");
-
-//   return (
-//     <Box>
-//       <Box sx={{ p: 2, display: "flex", gap: 2 }}>
-//         <Button variant={role === "admin" ? "contained" : "outlined"} onClick={() => setRole("admin")}>
-//           Admin
-//         </Button>
-
-//         <Button variant={role === "inspector" ? "contained" : "outlined"} onClick={() => setRole("inspector")}>
-//           Inspector
-//         </Button>
-//       </Box>
-
-//       {role === "admin" ? <AdminPage /> : <InspectorPage />}
-//     </Box>
-//   );
-// }
-
-// export default App;
