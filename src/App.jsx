@@ -46,7 +46,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
+      <Box sx={{ minHeight: '50vh', bgcolor: 'background.default' }}>
         <AppBar position="sticky" elevation={0} sx={{ bgcolor: '#fff', borderBottom: '1px solid', borderColor: 'divider', color: 'text.primary' }}>
           <Toolbar sx={{ gap: 2, px: { xs: 2, md: 3 } }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mr: 2 }}>
@@ -119,7 +119,7 @@ export default function App() {
           {activePage === 'admin' ? <AdminPage /> : <InspectorPage />}
         </Container>
 
-        <Box component="footer" sx={{ mt: 4, py: 2.5, borderTop: '1px solid', borderColor: 'divider', bgcolor: '#fff' }}>
+        <Box component="footer" sx={{ mt: 4, py: 1, borderTop: '1px solid', borderColor: 'divider', bgcolor: '#fff' }}>
           <Container maxWidth="xl">
             <Typography variant="caption" color="text.secondary" textAlign="center" display="block">
               UGES PowerMax Service Report Management System © 2026 — All rights reserved

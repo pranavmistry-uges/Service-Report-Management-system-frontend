@@ -71,7 +71,7 @@ const ActionButtons = ({ row, actionType, theme }) => {
         <Tooltip title="Assign">
           <IconButton size="small" onClick={() => handleAction('assign')}
             sx={{ color, '&:hover': { bgcolor: themeMap[theme]?.rowHover } }}>
-            <AssignmentIndIcon fontSize="small" />
+          
           </IconButton>
         </Tooltip>
       )}
